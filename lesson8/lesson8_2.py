@@ -7,6 +7,7 @@ while True:
     max = 100
     count = 0
     guess_value = random.randint(min,max)
+    print(f"電腦已經選好一個{guess_value}的數字了,請開始猜吧!")
     print("==========猜數字遊戲===========\n")
     while(True):
         keyin = int(input(f"猜數字範圍{min}~{max}\n"))
